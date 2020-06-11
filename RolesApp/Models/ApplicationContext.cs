@@ -19,8 +19,8 @@ namespace RolesApp.Models
         {
             string adminRoleName = "admin";
             string userRoleName = "user";
-            string adminEmail = "admin@mail.ru";
-            string adminPassword = "123456";
+            string adminEmail = "admin@mail.com";
+            string adminPassword = "A1aaaaaa";
             // добавляем роли
             Role adminRole = new Role { Id = 1, Name = adminRoleName };
             Role userRole = new Role { Id = 2, Name = userRoleName };
